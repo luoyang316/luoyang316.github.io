@@ -2200,6 +2200,13 @@ body {
 }
 .content-wrap,
 .header-inner,
-.sidebar-inner {
+.sidebar-inner,
+.base-info,
+.widget,
+.article-inner,
+.widget-wrap,
+#main,
+#profile,
+#sidebar {
   background: url("/images/allbg.jpg");
 }
