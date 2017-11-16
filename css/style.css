@@ -121,11 +121,11 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 a {
-  color: #38b7ea;
+  color: #9932cc;
   text-decoration: none;
 }
 a:visited {
-  color: #38b7ea;
+  color: #9932cc;
 }
 code {
   margin: 0 2px;
@@ -824,7 +824,7 @@ code {
   line-height: 1.3em;
 }
 a.article-title:visited {
-  color: #999;
+  color: #f0f;
 }
 a.article-title:hover {
   color: #38b7ea;
@@ -858,7 +858,7 @@ a.article-title:hover {
   margin-right: 3px;
 }
 .article-meta a {
-  color: #999;
+  color: #e00;
 }
 .article-meta a:hover {
   color: #38b7ea;
@@ -2204,7 +2204,7 @@ body {
 .widget,
 .article-inner,
 .widget-wrap,
-.ins-search,
+.ins-search-container,
 #main,
 #profile,
 #sidebar {
