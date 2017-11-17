@@ -819,12 +819,12 @@ code {
 }
 .article-title {
   font-size: 2em;
-  color: #f0f;
+  color: #009688;
   text-decoration: none;
   line-height: 1.3em;
 }
 a.article-title:visited {
-  color: #f0f;
+  color: #009688;
 }
 a.article-title:hover {
   color: #38b7ea;
