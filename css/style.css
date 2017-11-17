@@ -2188,25 +2188,3 @@ ol.toc {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
-body {
-  background: url("./images/bigbg.jpg") no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-color: #293227;
-}
-.content-wrap,
-.header-inner,
-.sidebar-inner,
-.base-info,
-.widget,
-.article-inner,
-.widget-wrap,
-.ins-search-container,
-#main,
-#profile,
-#sidebar {
-  background: url("./images/allbg.jpg");
-}
