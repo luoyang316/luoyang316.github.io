@@ -137,9 +137,10 @@ code {
   background-color: #f8f8f8;
 }
 .outer {
-  max-width: 1320px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 20px;
+  height: 65px;
 }
 .outer:before,
 .outer:after {
@@ -173,12 +174,6 @@ code {
   -webkit-background-size: 40px 40px;
   -moz-background-size: 40px 40px;
   background-size: 40px 40px;
-}
-#container {
-  position: relative;
-}
-#container > .outer {
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   #main {
