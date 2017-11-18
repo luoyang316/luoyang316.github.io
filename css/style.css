@@ -142,7 +142,7 @@ code {
   margin: 0 auto;
   padding: 0 20px;
   height: 65px;
-  background: #d8e2eb url("../img/bg.jpg") no-repeat top center;
+  background: #d8e2eb url("./images//bg.jpg") no-repeat top center;
 }
 .outer:before,
 .outer:after {
