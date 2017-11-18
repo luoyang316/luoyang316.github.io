@@ -1668,6 +1668,13 @@ ol.toc {
   margin-left: 15px;
   line-height: 30px;
 }
+#footer {
+  padding: 20px 0;
+  border-top: 1px solid #eceff2;
+  color: #565a5f;
+  font-size: 18px;
+  text-align: center;
+}
 #footer .outer {
   margin-bottom: 0;
 }
