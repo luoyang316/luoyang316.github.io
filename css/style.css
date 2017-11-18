@@ -339,6 +339,7 @@ code {
 }
 #header {
   position: relative;
+  padding: 40px;
 }
 #header a,
 #header a:visited {
