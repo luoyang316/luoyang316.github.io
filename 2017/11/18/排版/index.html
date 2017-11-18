@@ -88,14 +88,14 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cari" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Tulis Sesuatu.." />
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -107,11 +107,11 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Pos',
-            PAGES: 'Halaman',
-            CATEGORIES: 'Kategori',
-            TAGS: 'Tag',
-            UNTITLED: 'Tanpa Judul',
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -141,7 +141,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cari" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -161,16 +161,16 @@
             <h2 id="name">Radish</h2>
             <h3 id="title">搬砖小渣渣</h3>
             <span id="location"><i class="fa fa-map-marker"></i>北京, China</span>
-            <a id="follow" target="_blank" href="https://github.com/luoyang316/">IKUTI</a>
+            <a id="follow" target="_blank" href="https://github.com/luoyang316/">FOLLOW</a>
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
                 8
-                <span>pos</span>
+                <span>posts</span>
             </div>
             <div class="article-info-block">
                 6
-                <span>tag</span>
+                <span>tags</span>
             </div>
         </div>
         
@@ -241,16 +241,16 @@
 <h1 id="h111111111111111111111111111111111"><a href="#h111111111111111111111111111111111" class="headerlink" title="h111111111111111111111111111111111"></a>h111111111111111111111111111111111</h1><h2 id="h2222222222222222222"><a href="#h2222222222222222222" class="headerlink" title="h2222222222222222222"></a>h2222222222222222222</h2><h3 id="h333333333333333"><a href="#h333333333333333" class="headerlink" title="h333333333333333"></a>h333333333333333</h3><a id="more"></a>
 <p>反对所发生的反反复复反反复复反反复复反反复复反反复复发大水反反复复<br>的反对所发生大反反复复反反复复反反复复吩咐反对所发生的<br>反对所发生的<br><img src="images/logo.gif" alt="logo"><br>11111111111111</p>
 <p>:star: 小星星</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span></span><br></pre></td></tr></table></figure>
 <p>1111111111111111111111</p>
 <p>To add pull quotes to your posts:</p>
 <blockquote class="pullquote [class]"><p>@RunWith(SpringJUnit4ClassRunner.class)<br>@SpringApplicationConfiguration(classes = MockServletContext.class)<br>@WebAppConfiguration<br>public class Chapter1ApplicationTests {<br>    private MockMvc mvc;<br>    @Before<br>    public void setUp() throws Exception {<br>        mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();<br>    }<br>    @Test<br>    public void getHello() throws Exception {<br>        mvc.perform(MockMvcRequestBuilders.get(“/hello”).accept(MediaType.APPLICATION_JSON))<br>                .andExpect(status().isOk())<br>                .andExpect(content().string(equalTo(“Hello World”)));<br>    }<br>}</p>
 </blockquote>
 <h1 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h1><p>To embed a jsFiddle snippet:</p>
 <iframe scrolling="no" width="[width]" height="[height]" src="//jsfiddle.net/shorttag/embedded/[tabs]/[skin]" frameborder="0" allowfullscreen></iframe>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">@RunWith(SpringJUnit4ClassRunner.class)</span><br><span class="line">@SpringApplicationConfiguration(classes = MockServletContext.class)</span><br><span class="line">@WebAppConfiguration</span><br><span class="line">public class Chapter1ApplicationTests &#123;</span><br><span class="line">	private MockMvc mvc;</span><br><span class="line">	@Before</span><br><span class="line">	public void setUp() throws Exception &#123;</span><br><span class="line">		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();</span><br><span class="line">	&#125;</span><br><span class="line">	@Test</span><br><span class="line">	public void getHello() throws Exception &#123;</span><br><span class="line">		mvc.perform(MockMvcRequestBuilders.get(&quot;/hello&quot;).accept(MediaType.APPLICATION_JSON))</span><br><span class="line">				.andExpect(status().isOk())</span><br><span class="line">				.andExpect(content().string(equalTo(&quot;Hello World&quot;)));</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>测试1111111111111111111111111<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure></p>
-<h1 id="java代码"><a href="#java代码" class="headerlink" title="java代码"></a>java代码</h1><figure class="highlight plain"><figcaption><span>[java]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">@RunWith(SpringJUnit4ClassRunner.class)</span><br><span class="line">@SpringApplicationConfiguration(classes = MockServletContext.class)</span><br><span class="line">@WebAppConfiguration</span><br><span class="line">public class Chapter1ApplicationTests &#123;</span><br><span class="line">	private MockMvc mvc;</span><br><span class="line">	@Before</span><br><span class="line">	public void setUp() throws Exception &#123;</span><br><span class="line">		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();</span><br><span class="line">	&#125;</span><br><span class="line">	@Test</span><br><span class="line">	public void getHello() throws Exception &#123;</span><br><span class="line">		mvc.perform(MockMvcRequestBuilders.get(&quot;/hello&quot;).accept(MediaType.APPLICATION_JSON))</span><br><span class="line">				.andExpect(status().isOk())</span><br><span class="line">				.andExpect(content().string(equalTo(&quot;Hello World&quot;)));</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">@RunWith(SpringJUnit4ClassRunner.class)</span><br><span class="line">@SpringApplicationConfiguration(classes = MockServletContext.class)</span><br><span class="line">@WebAppConfiguration</span><br><span class="line">public class Chapter1ApplicationTests &#123;</span><br><span class="line">	private MockMvc mvc;</span><br><span class="line">	@Before</span><br><span class="line">	public void setUp() throws Exception &#123;</span><br><span class="line">		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();</span><br><span class="line">	&#125;</span><br><span class="line">	@Test</span><br><span class="line">	public void getHello() throws Exception &#123;</span><br><span class="line">		mvc.perform(MockMvcRequestBuilders.get(&quot;/hello&quot;).accept(MediaType.APPLICATION_JSON))</span><br><span class="line">				.andExpect(status().isOk())</span><br><span class="line">				.andExpect(content().string(equalTo(&quot;Hello World&quot;)));</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>测试1111111111111111111111111<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure></p>
+<h1 id="java代码"><a href="#java代码" class="headerlink" title="java代码"></a>java代码</h1><figure class="highlight plain"><figcaption><span>[java]</span></figcaption><table><tr><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">@RunWith(SpringJUnit4ClassRunner.class)</span><br><span class="line">@SpringApplicationConfiguration(classes = MockServletContext.class)</span><br><span class="line">@WebAppConfiguration</span><br><span class="line">public class Chapter1ApplicationTests &#123;</span><br><span class="line">	private MockMvc mvc;</span><br><span class="line">	@Before</span><br><span class="line">	public void setUp() throws Exception &#123;</span><br><span class="line">		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();</span><br><span class="line">	&#125;</span><br><span class="line">	@Test</span><br><span class="line">	public void getHello() throws Exception &#123;</span><br><span class="line">		mvc.perform(MockMvcRequestBuilders.get(&quot;/hello&quot;).accept(MediaType.APPLICATION_JSON))</span><br><span class="line">				.andExpect(status().isOk())</span><br><span class="line">				.andExpect(content().string(equalTo(&quot;Hello World&quot;)));</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
         
         </div>
         <footer class="article-footer">
@@ -271,7 +271,7 @@
     
     
         <a href="/2017/11/16/图片测试/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Lebih lama</strong>
+            <strong class="article-nav-caption">Older</strong>
             <div class="article-nav-title">图片测试</div>
         </a>
     
@@ -318,7 +318,7 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">Terbaru</h3>
+        <h3 class="widget-title">recent</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
@@ -427,7 +427,7 @@
         <!--
         	作者：luoyang
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">Kategori</h3>
+        	描述：<h3 class="widget-title">categories</h3>
         --><h3 class="widget-title">分类</h3>
         <div class="widget">
             <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/hello/">hello</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/java/">java</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/生活/打豆豆/">打豆豆</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/睡觉/">睡觉</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书/">读书</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/吃饭/">吃饭</a><span class="category-list-count">1</span></li></ul></li></ul>
@@ -440,7 +440,7 @@
         <!--
         	作者：luoyang
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">Arsip</h3>
+        	描述：<h3 class="widget-title">archives</h3>
         --><h3 class="widget-title">时间树</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a><span class="archive-list-count">1</span></li></ul>
@@ -453,7 +453,7 @@
         <!--
         	作者：offline
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">awan tag</h3>
+        	描述：<h3 class="widget-title">tag cloud</h3>
         --><h3 class="widget-title">云标签</h3>
         <div class="widget tagcloud">
             <a href="/tags/hello/" style="font-size: 10px;">hello</a> <a href="/tags/吃饭/" style="font-size: 15px;">吃饭</a> <a href="/tags/奇淫技巧/" style="font-size: 10px;">奇淫技巧</a> <a href="/tags/排版/" style="font-size: 10px;">排版</a> <a href="/tags/测试/" style="font-size: 20px;">测试</a> <a href="/tags/黑魔法/" style="font-size: 10px;">黑魔法</a>
@@ -466,7 +466,7 @@
         <!--
         	作者：luoyang
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">tautan</h3>
+        	描述：<h3 class="widget-title">links</h3>
         --><h3 class="widget-title">快速通道</h3>
         <div class="widget">
             <ul>
