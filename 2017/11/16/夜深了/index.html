@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=zh>
 <head>
     <meta charset="utf-8">
     
@@ -10,6 +10,7 @@
 <meta property="og:title" content="夜深了">
 <meta property="og:url" content="http://blog.ccc123.net/2017/11/16/夜深了/index.html">
 <meta property="og:site_name" content="颓废小萝卜">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2017-11-17T06:07:50.064Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="夜深了">
@@ -58,15 +59,15 @@
             </a>
             <nav id="main-nav">
                 
-                    <a class="main-nav-link" href="/.">首页</a>
+                    <a class="main-nav-link" href="/.">Home</a>
                 
-                    <a class="main-nav-link" href="/archives">归档</a>
+                    <a class="main-nav-link" href="/archives">Archives</a>
                 
-                    <a class="main-nav-link" href="/categories">分类</a>
+                    <a class="main-nav-link" href="/categories">Categories</a>
                 
-                    <a class="main-nav-link" href="/tags">标签</a>
+                    <a class="main-nav-link" href="/tags">Tags</a>
                 
-                    <a class="main-nav-link" href="/about">关于</a>
+                    <a class="main-nav-link" href="/about">About</a>
                 
             </nav>
             
@@ -83,14 +84,14 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -102,11 +103,11 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -123,20 +124,20 @@
         <table class="menu outer">
             <tr>
                 
-                    <td><a class="main-nav-link" href="/.">首页</a></td>
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
                 
-                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
                 
-                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
                 
-                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
                 
-                    <td><a class="main-nav-link" href="/about">关于</a></td>
+                    <td><a class="main-nav-link" href="/about">About</a></td>
                 
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
     </div>
 
                 </td>
@@ -156,16 +157,16 @@
             <h2 id="name">Radish</h2>
             <h3 id="title">搬砖小渣渣</h3>
             <span id="location"><i class="fa fa-map-marker"></i>北京, China</span>
-            <a id="follow" target="_blank" href="https://github.com/luoyang316/">FOLLOW</a>
+            <a id="follow" target="_blank" href="https://github.com/luoyang316/">关注我</a>
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
                 8
-                <span>posts</span>
+                <span>文章</span>
             </div>
             <div class="article-info-block">
                 6
-                <span>tags</span>
+                <span>标签</span>
             </div>
         </div>
         
@@ -252,7 +253,7 @@
 <nav id="article-nav">
     
         <a href="/2017/11/16/这个是这么了 睡不着/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Newer</strong>
+            <strong class="article-nav-caption">上一篇</strong>
             <div class="article-nav-title">
                 
                     睡不着要死了
@@ -262,7 +263,7 @@
     
     
         <a href="/2017/11/15/我的博客/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Older</strong>
+            <strong class="article-nav-caption">下一篇</strong>
             <div class="article-nav-title">测试</div>
         </a>
     
@@ -309,7 +310,7 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">recent</h3>
+        <h3 class="widget-title">最新文章</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
@@ -418,7 +419,7 @@
         <!--
         	作者：luoyang
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">categories</h3>
+        	描述：
         --><h3 class="widget-title">分类</h3>
         <div class="widget">
             <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/hello/">hello</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/java/">java</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/生活/打豆豆/">打豆豆</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/睡觉/">睡觉</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书/">读书</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/吃饭/">吃饭</a><span class="category-list-count">1</span></li></ul></li></ul>
@@ -431,10 +432,10 @@
         <!--
         	作者：luoyang
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">archives</h3>
-        --><h3 class="widget-title">时间树</h3>
+        	描述：
+        --><h3 class="widget-title">归档</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">十一月 2017</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -444,8 +445,8 @@
         <!--
         	作者：offline
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">tag cloud</h3>
-        --><h3 class="widget-title">云标签</h3>
+        	描述：<h3 class="widget-title">标签云</h3>
+        --><h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
             <a href="/tags/hello/" style="font-size: 10px;">hello</a> <a href="/tags/吃饭/" style="font-size: 15px;">吃饭</a> <a href="/tags/奇淫技巧/" style="font-size: 10px;">奇淫技巧</a> <a href="/tags/排版/" style="font-size: 10px;">排版</a> <a href="/tags/测试/" style="font-size: 20px;">测试</a> <a href="/tags/黑魔法/" style="font-size: 10px;">黑魔法</a>
         </div>
@@ -457,8 +458,8 @@
         <!--
         	作者：luoyang
         	时间：2017-11-17
-        	描述：<h3 class="widget-title">links</h3>
-        --><h3 class="widget-title">快速通道</h3>
+        	描述：
+        --><h3 class="widget-title">链接</h3>
         <div class="widget">
             <ul>
                 
