@@ -2127,7 +2127,7 @@ ol.toc {
   height: 1.6em;
 }
 .highlight {
-  color: #ddd;
+  color: #333;
   background: #f7f8f8;
 }
 .highlight .code .tag,
