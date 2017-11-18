@@ -176,6 +176,12 @@ code {
   -moz-background-size: 40px 40px;
   background-size: 40px 40px;
 }
+#container {
+  position: relative;
+}
+#container > .outer {
+  margin-bottom: 30px;
+}
 @media screen and (min-width: 1200px) {
   #main {
     display: inline;
