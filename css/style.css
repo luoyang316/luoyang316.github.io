@@ -142,14 +142,6 @@ code {
   padding: 0 20px;
   height: 65px;
 }
-.outer:before,
-.outer:after {
-  content: "";
-  display: table;
-}
-.outer:after {
-  clear: both;
-}
 @media screen and (max-width: 559px) {
   .outer {
     padding: 0;
